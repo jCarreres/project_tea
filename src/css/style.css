@@ -1,0 +1,37 @@
+/* Css Aplication ConTea */
+
+
+/*
+##### INDEX #####
+0. GLOBALS
+
+1. HOME
+
+ */
+
+
+/* 1. HOME */
+
+div.container-btn-home {
+    background-color: aqua;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    justify-content: space-evenly;
+}
+
+a.btn-listen {
+    align-items: center;
+    background-color: coral;
+    display: flex;
+    height: 45%;
+    justify-content: center;
+}
+
+.btn-speek {
+    align-items: center;
+    background-color: crimson;
+    display: flex;
+    height: 45%;
+    justify-content: center;
+}
