@@ -44,12 +44,12 @@ a.btn-home {
 
 
 /* 2. LISEN */
-a.btn-lisen {
+.btn-lisen {
     height: 10.5rem;
-    width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
+    border: 0.25rem solid #ffffff;
 }
 
 /* Small devices (landscape phones, 576px and up) */
@@ -57,7 +57,7 @@ a.btn-lisen {
 
 /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) {
-    a.btn-lisen {
+    .btn-lisen {
         height: 21rem;
     }
 }
