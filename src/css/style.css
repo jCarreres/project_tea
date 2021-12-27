@@ -11,27 +11,36 @@
 
 
 /* 1. HOME */
-
 div.container-btn-home {
     background-color: aqua;
     display: flex;
     flex-direction: column;
-    height: 100vh;
     justify-content: space-evenly;
+    height: 100vh;
 }
-
-a.btn-listen {
-    align-items: center;
+a.btn-home {
     background-color: coral;
     display: flex;
-    height: 45%;
     justify-content: center;
+    align-items: center;
+    height: 45%;
+    width: 100%;
 }
 
-.btn-speek {
-    align-items: center;
-    background-color: crimson;
-    display: flex;
-    height: 45%;
-    justify-content: center;
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+    /**/
+    a.btn-home {
+        height: 75%;
+        width: 45%;
+    }
 }
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {}
