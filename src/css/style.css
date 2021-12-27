@@ -4,11 +4,22 @@
 /*
 ##### INDEX #####
 0. GLOBALS
+    0.1 Colors
 
 1. HOME
 2. LISEN
 
  */
+
+/* 0. GLOBALS */
+/* 0.1 Colors*/
+:root {
+    --main-color-pink: #FF637D;
+    --main-color-beige: #F4F1BB;
+    --main-color-blue: #66d7d1;
+    --main-color-white: #EAF2E3;
+    --main-color-yellow: #FFF87F;
+  }
 
 
 /* 1. HOME */
@@ -50,6 +61,10 @@ a.btn-home {
     justify-content: center;
     align-items: center;
     border: 0.25rem solid #ffffff;
+    background-color: var(--main-color-blue);
+}
+.img-lisen {
+    width: 22vw;
 }
 
 /* Small devices (landscape phones, 576px and up) */
