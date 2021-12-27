@@ -8,7 +8,7 @@
     0.2 Buttons bottom navegation
 
 1. HOME
-2. LISEN
+2. MENU LISEN
 
  */
 
@@ -40,6 +40,17 @@
     width: 2.7rem;
 }
 
+@media (min-width: 576px) {}
+@media (min-width: 768px) {
+    .btn-menu-bottom {
+        padding-top: 2.5rem;
+        padding-bottom: 2.5rem;
+    }
+}
+@media (min-width: 992px) {}
+@media (min-width: 1200px) {  }
+@media (min-width: 1400px) {  }
+
 
 /* 1. HOME */
 div.container-btn-home {
@@ -58,43 +69,52 @@ a.btn-home {
     width: 100%;
 }
 
-/* Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) {}
-
-/* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) {}
-
-/* Large devices (desktops, 992px and up) */
 @media (min-width: 992px) {
     a.btn-home {
         height: 75%;
         width: 45%;
     }
 }
+@media (min-width: 1200px) {  }
+@media (min-width: 1400px) {  }
 
 
-/* 2. LISEN */
+/* 2. MENU LISEN */
 .btn-lisen {
-    height: 11.5rem;
+    /*height: 12rem;*/
     display: flex;
     justify-content: center;
     align-items: center;
     border: 0.25rem solid #ffffff;
     background-color: var(--main-color-blue);
 }
+
+@media (min-width: 576px) {}
+@media (min-width: 768px) {}
+@media (min-width: 992px) {}
+@media (min-width: 1200px) {}
+@media (min-width: 1400px) {}
+
+
+/* 2. LISEN VOWEL */
+.container-btn-lisen {
+    height: 86.5vh;
+}
 .img-lisen {
     width: 22vw;
 }
 
-/* Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) {}
-
-/* Medium devices (tablets, 768px and up) */
-@media (min-width: 768px) {
-    .btn-lisen {
-        height: 21rem;
+@media (min-width: 768px) {   }
+@media (min-width: 992px) {}
+@media (min-width: 1200px) {
+    .container-btn-lisen {
+        height: 83vh;
+    }
+    .img-lisen {
+        width: 16vw;
     }
 }
-
-/* Large devices (desktops, 992px and up) */
-@media (min-width: 992px) {}
+@media (min-width: 1400px) {}
