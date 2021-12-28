@@ -11,42 +11,57 @@
 2. MENU LISEN
 3. LISEN VOWEL
 4. LISEN NUMBER
+5. LISEN COLOR 
 */
 
 /* 0. GLOBALS */
 /* 0.1 Colors*/
 :root {
-    --main-color-beige: #F4F1BB;
-    --main-color-black: #000000;
-    --main-color-blue: #66d7d1;
-    --main-color-pink: #FF637D;
-    --main-color-white: #EAF2E3;
-    --main-color-yellow: #FFF87F;
+ 
+    --main-color-beige  : #F4F1BB;
+    --main-color-black  : #000000;
+    --main-color-blue   : #66d7d1;
+    --main-color-pink   : #FF637D;
+    --main-color-white  : #EAF2E3;
+    --main-color-yellow : #FFF87F;
+
+    /* Page colors */
+    --main-page-colors-red    : #F44336;
+    --main-page-colors-blue   : #2196F3;
+    --main-page-colors-yellow : #FFEB3B;
+    --main-page-colors-green  : #4CAF50;
+    --main-page-colors-pink   : #E91E63;
+    --main-page-colors-brown  : #795548;
+    --main-page-colors-black  : #000000;
+    --main-page-colors-white  : #ffffff;
+    --main-page-colors-orange : #FF5722;
+    --main-page-colors-purple : #9C27B8;
+    --main-page-colors-gray   : #9E9E9E;
 }
  
 /* 0.2 Buttons bottom navegation */
 .menu-bottom {
-    background-color: var(--main-color-white);
-    bottom: 0;
-    padding-top: 1rem;
-    padding-bottom: 1rem;
-    position:fixed;
-    width: 100%;
+    background-color : var(--main-color-white);
+    bottom           : 0;
+    padding-top      : 1rem;
+    padding-bottom   : 1rem;
+    position         : fixed;
+    width            : 100%;
 }
 .btn-menu-bottom {
-    background-color: #66d7d150;
-    padding-bottom: 0.8rem;
-    padding-top: 0.8rem;
-    width: 100%;
+    background-color : #66d7d150;
+    padding-bottom   : 0.8rem;
+    padding-top      : 0.8rem;
+    width            : 100%;
 }
 .img-menu-bottom {
-    width: 2.7rem;
+    width : 2.7rem;
 }
 @media (min-width: 576px) {}
 @media (min-width: 768px) {
     .btn-menu-bottom {
-        padding-bottom: 2.5rem;
-        padding-top: 2.5rem;
+        padding-bottom : 2.5rem;
+        padding-top    : 2.5rem;
     }
 }
 @media (min-width: 992px) {}
@@ -56,33 +71,33 @@
 
 /* 1. HOME */
 div.container-btn-home {
-    display: flex;
-    flex-direction: column;
-    height: 100vh;
-    justify-content: space-evenly;
+    display         : flex;
+    flex-direction  : column;
+    height          : 100vh;
+    justify-content : space-evenly;
 }
 a.btn-home {
-    align-items: center;
-    color: var(--main-color-white);
-    display: flex;
-    height: 45%;
-    justify-content: center;
-    width: 100%;
+    align-items     : center;
+    color           : var(--main-color-white);
+    display         : flex;
+    font-size       : 4rem;
+    height          : 45%;
+    justify-content : center;
+    width           : 100%;
 }
 #btn-oir {
-    background-color: var(--main-color-blue);
+    background-color : var(--main-color-blue);
 }
 #btn-hablar {
-    background-color: var(--main-color-pink);
+    background-color : var(--main-color-pink);
 }
-.btn-lisen(even) { background: #ddd }
-.btn-lisen(odd) { background: #fff}
+
 @media (min-width: 576px) {}
 @media (min-width: 768px) {}
 @media (min-width: 992px) {
     a.btn-home {
-        height: 75%;
-        width: 45%;
+        height : 75%;
+        width  : 45%;
     }
 }
 @media (min-width: 1200px) {  }
@@ -91,16 +106,17 @@ a.btn-home {
 
 /* 2. MENU LISEN */
 .btn-lisen {
-    align-items: center;
-    background-color: var(--main-color-pink);
-    border: 0.25rem solid var(--main-color-white);
-    display: flex;
-    height: 10rem;
-    justify-content: center;
+    align-items      : center;
+    background-color : var(--main-color-pink);
+    border           : 0.25rem solid var(--main-color-white);
+    display          : flex;
+    font-size        : 2rem;
+    height           : 10rem;
+    justify-content  : center;
 }
 .btn-lisen a {
-    color: var(--main-color-white);
-    text-decoration: none;
+    color           : var(--main-color-white);
+    text-decoration : none;
 }
 @media (min-width: 576px) {}
 @media (min-width: 768px) {}
@@ -111,13 +127,14 @@ a.btn-home {
 
 /* 3. LISEN VOWEL */
 .btn-lisen-vowel {
-    align-items: center;
-    background-color: var(--main-color-blue);
-    border: 0.25rem solid var(--main-color-white);
-    color: var(--main-color-white);
-    display: flex;
-    height: 10rem;
-    justify-content: center;  
+    align-items      : center;
+    background-color : var(--main-color-blue);
+    border           : 0.25rem solid var(--main-color-white);
+    color            : var(--main-color-white);
+    display          : flex;
+    font-size        : 7rem;
+    height           : 10rem;
+    justify-content  : center;  
 }
 @media (min-width: 576px) {}
 @media (min-width: 768px) {}
@@ -128,13 +145,14 @@ a.btn-home {
 
 /* 4. LISEN NUMBER */
 .btn-lisen-number {
-    align-items: center;
-    background-color: var(--main-color-blue);
-    border: 0.25rem solid var(--main-color-white);
-    color: var(--main-color-white);
-    display: flex;
-    height: 10rem;
-    justify-content: center;  
+    align-items      : center;
+    background-color : var(--main-color-blue);
+    border           : 0.25rem solid var(--main-color-white);
+    color            : var(--main-color-white);
+    display          : flex;
+    font-size        : 7rem;
+    height           : 10rem;
+    justify-content  : center;  
 }
 @media (min-width: 576px) {}
 @media (min-width: 768px) {}
@@ -143,10 +161,62 @@ a.btn-home {
 @media (min-width: 1400px) {}
 
 .container-btn-lisen {
-    margin-bottom: 6rem;
+    margin-bottom : 6rem;
 }
 
 
+/* 5. LISEN COLOR */
+.btn-lisen-color {
+    align-items     : center;
+    border          : 0.25rem solid var(--main-color-white);
+    color           : var(--main-color-white);
+    display         : flex;
+    font-size       : 7rem;
+    height          : 10rem;
+    justify-content : center;  
+}
+
+#btn-lisen-color-red {
+    background-color : var(--main-page-colors-red);
+}
+#btn-lisen-color-blue {
+    background-color : var(--main-page-colors-blue);
+}
+#btn-lisen-color-yellow {
+    background-color : var(--main-page-colors-yellow);
+}
+#btn-lisen-color-green {
+    background-color : var(--main-page-colors-green);
+}
+#btn-lisen-color-pink {
+    background-color : var(--main-page-colors-pink);
+}
+#btn-lisen-color-brown {
+    background-color : var(--main-page-colors-brown);
+}
+#btn-lisen-color-black {
+    background-color : var(--main-page-colors-black);
+}
+#btn-lisen-color-white {
+    background-color : var(--main-page-colors-white);
+}
+#btn-lisen-color-orange {
+    background-color : var(--main-page-colors-orange);
+}
+#btn-lisen-color-purple {
+    background-color : var(--main-page-colors-purple);
+}
+#btn-lisen-color-grey {
+    background-color : var(--main-page-colors-gray);
+}
+@media (min-width: 576px) {}
+@media (min-width: 768px) {}
+@media (min-width: 992px) {}
+@media (min-width: 1200px) {}
+@media (min-width: 1400px) {}
 
 
 
+
+/*.btn-lisen(even) { background: #ddd }
+.btn-lisen(odd) { background: #fff}*/

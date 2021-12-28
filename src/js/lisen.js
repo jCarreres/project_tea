@@ -19,9 +19,17 @@ artyom.initialize({
 });
 
 
-// Vowel listen
-document.getElementById("btn-lisen-vowel-a").addEventListener("click", function() {
-    artyom.say("aa");
+// Menu listen
+document.getElementById("btn-lisen-vowel").addEventListener("click", function() {
+    artyom.say("Las vocales");
 }, false);
+
+document.getElementById("btn-lisen-numbers").addEventListener("click", function() {
+    artyom.say("Los números");
+}, false);
+
+document.getElementById("btn-lisen-colors").addEventListener("click", function() {
+    artyom.say("Los colores");
+}, false)
 
 
