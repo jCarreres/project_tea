@@ -56,7 +56,6 @@
 
 /* 1. HOME */
 div.container-btn-home {
-    background-color: aqua;
     display: flex;
     flex-direction: column;
     height: 100vh;
@@ -64,12 +63,20 @@ div.container-btn-home {
 }
 a.btn-home {
     align-items: center;
-    background-color: coral;
+    color: var(--main-color-white);
     display: flex;
     height: 45%;
     justify-content: center;
     width: 100%;
 }
+#btn-oir {
+    background-color: var(--main-color-blue);
+}
+#btn-hablar {
+    background-color: var(--main-color-pink);
+}
+.btn-lisen(even) { background: #ddd }
+.btn-lisen(odd) { background: #fff}
 @media (min-width: 576px) {}
 @media (min-width: 768px) {}
 @media (min-width: 992px) {
@@ -90,6 +97,10 @@ a.btn-home {
     display: flex;
     height: 10rem;
     justify-content: center;
+}
+.btn-lisen a {
+    color: var(--main-color-white);
+    text-decoration: none;
 }
 @media (min-width: 576px) {}
 @media (min-width: 768px) {}

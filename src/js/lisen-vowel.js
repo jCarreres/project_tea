@@ -1,4 +1,4 @@
-var artyom = new Artyom();
+let artyom = new Artyom();
 
 // Start the commands !
 artyom.initialize({
@@ -35,5 +35,6 @@ document.getElementById("btn-lisen-vowel-o").addEventListener("click", function(
 document.getElementById("btn-lisen-vowel-u").addEventListener("click", function() {
     artyom.say("uu");
 }, false);
+
 
 
