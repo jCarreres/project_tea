@@ -21,19 +21,19 @@ artyom.initialize({
 
 // Vowel listen
 document.getElementById("btn-lisen-vowel-a").addEventListener("click", function() {
-    artyom.say("aa");
+    artyom.say("a");
 }, false);
 document.getElementById("btn-lisen-vowel-e").addEventListener("click", function() {
-    artyom.say("eeee");
+    artyom.say("e");
 }, false)
 document.getElementById("btn-lisen-vowel-i").addEventListener("click", function() {
-    artyom.say("ii");
+    artyom.say("i");
 }, false);
 document.getElementById("btn-lisen-vowel-o").addEventListener("click", function() {
     artyom.say("o");
 }, false)
 document.getElementById("btn-lisen-vowel-u").addEventListener("click", function() {
-    artyom.say("uu");
+    artyom.say("u");
 }, false);
 
 

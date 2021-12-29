@@ -41,7 +41,7 @@
  
 /* 0.2 Buttons bottom navegation */
 .menu-bottom {
-    background-color : var(--main-color-white);
+    background-color : #ffffff99;
     bottom           : 0;
     padding-top      : 1rem;
     padding-bottom   : 1rem;
@@ -49,7 +49,7 @@
     width            : 100%;
 }
 .btn-menu-bottom {
-    background-color : #66d7d150;
+    background-color : #66d7d199;
     padding-bottom   : 0.8rem;
     padding-top      : 0.8rem;
     width            : 100%;
@@ -117,6 +117,9 @@ a.btn-home {
 .btn-lisen a {
     color           : var(--main-color-white);
     text-decoration : none;
+}
+.btn-lisen-blue {
+    background-color: var(--main-color-blue);
 }
 @media (min-width: 576px) {}
 @media (min-width: 768px) {}
@@ -216,7 +219,40 @@ a.btn-home {
 @media (min-width: 1400px) {}
 
 
+/* 6. LISEN FIGURE */
+.btn-lisen-figure {
+    align-items      : center;
+    background-color : var(--main-color-blue);
+    border           : 0.25rem solid var(--main-color-white);
+    color            : var(--main-color-white);
+    display          : flex;
+    height           : 10rem;
+    justify-content  : center;  
+}
+.btn-lisen-figure img {
+    width: 7rem;
+}
+@media (min-width: 576px) {}
+@media (min-width: 768px) {}
+@media (min-width: 992px) {}
+@media (min-width: 1200px) {}
+@media (min-width: 1400px) {}
 
 
-/*.btn-lisen(even) { background: #ddd }
-.btn-lisen(odd) { background: #fff}*/
+/* 7. LISEN ALPHABET */
+.btn-lisen-alphabet {
+    align-items      : center;
+    background-color : var(--main-color-blue);
+    border           : 0.25rem solid var(--main-color-white);
+    color            : var(--main-color-white);
+    display          : flex;
+    font-size        : 7rem;
+    height           : 10rem;
+    justify-content  : center;  
+}
+@media (min-width: 576px) {}
+@media (min-width: 768px) {}
+@media (min-width: 992px) {}
+@media (min-width: 1200px) {}
+@media (min-width: 1400px) {}
+
