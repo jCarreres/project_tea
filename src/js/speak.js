@@ -20,23 +20,23 @@ artyom.initialize({
 
 
 // Menu listen
-document.getElementById("btn-lisen-vowel").addEventListener("click", function() {
+document.getElementById("btn-speak-vowel").addEventListener("click", function() {
     artyom.say("Las vocales");
 }, false);
 
-document.getElementById("btn-lisen-numbers").addEventListener("click", function() {
+document.getElementById("btn-speak-numbers").addEventListener("click", function() {
     artyom.say("Los números");
 }, false);
 
-document.getElementById("btn-lisen-colors").addEventListener("click", function() {
+document.getElementById("btn-speak-colors").addEventListener("click", function() {
     artyom.say("Los colores");
 }, false)
 
-document.getElementById("btn-lisen-figures").addEventListener("click", function() {
+document.getElementById("btn-speak-figures").addEventListener("click", function() {
     artyom.say("Las formas");
 }, false)
 
-document.getElementById("btn-lisen-alphabet").addEventListener("click", function() {
+document.getElementById("btn-speak-alphabet").addEventListener("click", function() {
     artyom.say("El abcdario");
 }, false)
 
