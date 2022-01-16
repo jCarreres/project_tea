@@ -20,36 +20,59 @@ artyom.initialize({
 
 
 // Color listen
-document.getElementById("btn-lisen-color-red").addEventListener("click", function() {
+let colorRed = document.getElementById("btn-lisen-color-red");
+let colorBlue = document.getElementById("btn-lisen-color-blue");
+let colorYellow = document.getElementById("btn-lisen-color-yellow");
+let colorGreen = document.getElementById("btn-lisen-color-green");
+let colorPink = document.getElementById("btn-lisen-color-pink");
+let colorBrown = document.getElementById("btn-lisen-color-brown");
+let colorBlack = document.getElementById("btn-lisen-color-black");
+let colorWhite = document.getElementById("btn-lisen-color-white");
+let colorOrange = document.getElementById("btn-lisen-color-orange");
+let colorPurple = document.getElementById("btn-lisen-color-purple");
+let colorGrey = document.getElementById("btn-lisen-color-grey");
+
+colorRed.addEventListener("click", function(    ) {
     artyom.say("Rojo");
+    colorRed.classList.toggle('borderActive'); 
 }, false);
-document.getElementById("btn-lisen-color-blue").addEventListener("click", function() {
+colorBlue.addEventListener("click", function() {
     artyom.say("Azul");
+    colorBlue.classList.toggle('borderActive'); 
 }, false)
-document.getElementById("btn-lisen-color-yellow").addEventListener("click", function() {
+colorYellow.addEventListener("click", function() {
     artyom.say("Amarillo");
+    colorYellow.classList.toggle('borderActive'); 
 }, false);
-document.getElementById("btn-lisen-color-green").addEventListener("click", function() {
+colorGreen.addEventListener("click", function() {
     artyom.say("Verde");
+    colorGreen.classList.toggle('borderActive'); 
 }, false)
-document.getElementById("btn-lisen-color-pink").addEventListener("click", function() {
+colorPink.addEventListener("click", function() {
     artyom.say("Rosa");
+    colorPink.classList.toggle('borderActive'); 
 }, false);
-document.getElementById("btn-lisen-color-brown").addEventListener("click", function() {
+colorBrown.addEventListener("click", function() {
     artyom.say("Marrón");
+    colorBrown.classList.toggle('borderActive'); 
 }, false);
-document.getElementById("btn-lisen-color-black").addEventListener("click", function() {
+colorBlack.addEventListener("click", function() {
     artyom.say("Negro");
+    colorBlack.classList.toggle('borderActive'); 
 }, false)
-document.getElementById("btn-lisen-color-white").addEventListener("click", function() {
+colorWhite.addEventListener("click", function() {
     artyom.say("Blanco");
+    colorWhite.classList.toggle('borderActive'); 
 }, false);
-document.getElementById("btn-lisen-color-orange").addEventListener("click", function() {
+colorOrange.addEventListener("click", function() {
     artyom.say("Naranja");
+    colorOrange.classList.toggle('borderActive'); 
 }, false)
-document.getElementById("btn-lisen-color-purple").addEventListener("click", function() {
+colorPurple.addEventListener("click", function() {
     artyom.say("Lila");
+    colorPurple.classList.toggle('borderActive'); 
 }, false);
-document.getElementById("btn-lisen-color-grey").addEventListener("click", function() {
+colorGrey.addEventListener("click", function() {
     artyom.say("Gris");
+    colorGrey.classList.toggle('borderActive'); 
 }, false)

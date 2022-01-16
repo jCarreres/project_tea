@@ -20,21 +20,34 @@ artyom.initialize({
 
 
 // Number listen
-document.getElementById("btn-lisen-figure-square").addEventListener("click", function() {
+let figureSquare = document.getElementById("btn-lisen-figure-square");
+let figureCircle = document.getElementById("btn-lisen-figure-circle");
+let figureTriangle = document.getElementById("btn-lisen-figure-triangle");
+let figureRectangle = document.getElementById("btn-lisen-figure-rectangle");
+let figureDiamond = document.getElementById("btn-lisen-figure-diamond");
+let figureStar = document.getElementById("btn-lisen-figure-star");
+
+figureSquare.addEventListener("click", function() {
     artyom.say("Cuadrado");
+    figureSquare.classList.toggle('backgroundActive'); 
 }, false);
 document.getElementById("btn-lisen-figure-circle").addEventListener("click", function() {
     artyom.say("Circulo");
+    figureCircle.classList.toggle('backgroundActive');
 }, false)
 document.getElementById("btn-lisen-figure-triangle").addEventListener("click", function() {
     artyom.say("Triángulo");
+    figureTriangle.classList.toggle('backgroundActive');
 }, false);
 document.getElementById("btn-lisen-figure-rectangle").addEventListener("click", function() {
     artyom.say("Rectángulo");
+    figureRectangle.classList.toggle('backgroundActive');
 }, false)
 document.getElementById("btn-lisen-figure-diamond").addEventListener("click", function() {
     artyom.say("Rombo");
+    figureDiamond.classList.toggle('backgroundActive');
 }, false);
 document.getElementById("btn-lisen-figure-star").addEventListener("click", function() {
     artyom.say("Estrella");
+    figureStar.classList.toggle('backgroundActive');
 }, false);

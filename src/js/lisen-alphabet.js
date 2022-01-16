@@ -53,10 +53,10 @@ letter_alphabet_a.addEventListener("click", function() {
     let src = img_letter_a.getAttribute("src");
     if (src == '/src/img/alphabet/a_uppercase_512px.png') {
         img_letter_a.setAttribute('src', '/src/img/alphabet/a_lowercase_512px.png');
-        letter_alphabet_a.style.backgroundColor = 'var(--main-color-black)';
+        letter_alphabet_a.classList.toggle('backgroundActive'); 
     } else {
         img_letter_a.setAttribute('src', '/src/img/alphabet/a_uppercase_512px.png');
-        letter_alphabet_a.style.backgroundColor = 'var(--main-color-blue)';
+        letter_alphabet_a.classList.toggle('backgroundActive'); 
     } 
 }, false);
 letter_alphabet_b.addEventListener("click", function() {
@@ -65,10 +65,10 @@ letter_alphabet_b.addEventListener("click", function() {
     let src = img_letter_b.getAttribute("src");
     if (src == '/src/img/alphabet/b_uppercase_512px.png') {
         img_letter_b.setAttribute('src', '/src/img/alphabet/b_lowercase_512px.png');
-        letter_alphabet_b.style.backgroundColor = 'var(--main-color-black)';
+        letter_alphabet_b.classList.toggle('backgroundActive'); 
     } else {
         img_letter_b.setAttribute('src', '/src/img/alphabet/b_uppercase_512px.png');
-        letter_alphabet_b.style.backgroundColor = 'var(--main-color-blue)';
+        letter_alphabet_b.classList.toggle('backgroundActive'); 
     } 
 }, false)
 letter_alphabet_c.addEventListener("click", function() {
@@ -77,10 +77,10 @@ letter_alphabet_c.addEventListener("click", function() {
     let src = img_letter_c.getAttribute("src");
     if (src == '/src/img/alphabet/c_uppercase_512px.png') {
         img_letter_c.setAttribute('src', '/src/img/alphabet/c_lowercase_512px.png');
-        letter_alphabet_c.style.backgroundColor = 'var(--main-color-black)';
+        letter_alphabet_c.classList.toggle('backgroundActive'); 
     } else {
         img_letter_c.setAttribute('src', '/src/img/alphabet/c_uppercase_512px.png');
-        letter_alphabet_c.style.backgroundColor = 'var(--main-color-blue)';
+        letter_alphabet_c.classList.toggle('backgroundActive'); 
     } 
 }, false);
 letter_alphabet_d.addEventListener("click", function() {
@@ -89,10 +89,10 @@ letter_alphabet_d.addEventListener("click", function() {
     let src = img_letter_d.getAttribute("src");
     if (src == '/src/img/alphabet/d_uppercase_512px.png') {
         img_letter_d.setAttribute('src', '/src/img/alphabet/d_lowercase_512px.png');
-        letter_alphabet_d.style.backgroundColor = 'var(--main-color-black)';
+        letter_alphabet_d.classList.toggle('backgroundActive'); 
     } else {
         img_letter_d.setAttribute('src', '/src/img/alphabet/d_uppercase_512px.png');
-        letter_alphabet_d.style.backgroundColor = 'var(--main-color-blue)';
+        letter_alphabet_d.classList.toggle('backgroundActive'); 
     } 
 }, false)
 letter_alphabet_e.addEventListener("click", function() {
@@ -101,10 +101,10 @@ letter_alphabet_e.addEventListener("click", function() {
     let src = img_letter_e.getAttribute("src");
     if (src == '/src/img/alphabet/e_uppercase_512px.png') {
         img_letter_e.setAttribute('src', '/src/img/alphabet/e_lowercase_512px.png');
-        letter_alphabet_e.style.backgroundColor = 'var(--main-color-black)';
+        letter_alphabet_e.classList.toggle('backgroundActive'); 
     } else {
         img_letter_e.setAttribute('src', '/src/img/alphabet/e_uppercase_512px.png');
-        letter_alphabet_e.style.backgroundColor = 'var(--main-color-blue)';
+        letter_alphabet_e.classList.toggle('backgroundActive'); 
     } 
 }, false);
 letter_alphabet_f.addEventListener("click", function() {
@@ -113,10 +113,10 @@ letter_alphabet_f.addEventListener("click", function() {
     let src = img_letter_f.getAttribute("src");
     if (src == '/src/img/alphabet/f_uppercase_512px.png') {
         img_letter_f.setAttribute('src', '/src/img/alphabet/f_lowercase_512px.png');
-        letter_alphabet_f.style.backgroundColor = 'var(--main-color-black)';
+        letter_alphabet_f.classList.toggle('backgroundActive'); 
     } else {
         img_letter_f.setAttribute('src', '/src/img/alphabet/f_uppercase_512px.png');
-        letter_alphabet_f.style.backgroundColor = 'var(--main-color-blue)';
+        letter_alphabet_f.classList.toggle('backgroundActive'); 
     } 
 }, false);
 letter_alphabet_g.addEventListener("click", function() {
@@ -125,10 +125,10 @@ letter_alphabet_g.addEventListener("click", function() {
     let src = img_letter_g.getAttribute("src");
     if (src == '/src/img/alphabet/g_uppercase_512px.png') {
         img_letter_g.setAttribute('src', '/src/img/alphabet/g_lowercase_512px.png');
-        letter_alphabet_g.style.backgroundColor = 'var(--main-color-black)';
+        letter_alphabet_g.classList.toggle('backgroundActive'); 
     } else {
         img_letter_g.setAttribute('src', '/src/img/alphabet/g_uppercase_512px.png');
-        letter_alphabet_g.style.backgroundColor = 'var(--main-color-blue)';
+        letter_alphabet_g.classList.toggle('backgroundActive'); 
     } 
 }, false)
 letter_alphabet_h.addEventListener("click", function() {
@@ -137,10 +137,10 @@ letter_alphabet_h.addEventListener("click", function() {
     let src = img_letter_h.getAttribute("src");
     if (src == '/src/img/alphabet/h_uppercase_512px.png') {
         img_letter_h.setAttribute('src', '/src/img/alphabet/h_lowercase_512px.png');
-        letter_alphabet_h.style.backgroundColor = 'var(--main-color-black)';
+        letter_alphabet_h.classList.toggle('backgroundActive'); 
     } else {
         img_letter_h.setAttribute('src', '/src/img/alphabet/h_uppercase_512px.png');
-        letter_alphabet_h.style.backgroundColor = 'var(--main-color-blue)';
+        letter_alphabet_h.classList.toggle('backgroundActive'); 
     } 
 }, false);
 letter_alphabet_i.addEventListener("click", function() {
@@ -149,10 +149,10 @@ letter_alphabet_i.addEventListener("click", function() {
     let src = img_letter_i.getAttribute("src");
     if (src == '/src/img/alphabet/i_uppercase_512px.png') {
         img_letter_i.setAttribute('src', '/src/img/alphabet/i_lowercase_512px.png');
-        letter_alphabet_i.style.backgroundColor = 'var(--main-color-black)';
+        letter_alphabet_i.classList.toggle('backgroundActive'); 
     } else {
         img_letter_i.setAttribute('src', '/src/img/alphabet/i_uppercase_512px.png');
-        letter_alphabet_i.style.backgroundColor = 'var(--main-color-blue)';
+        letter_alphabet_i.classList.toggle('backgroundActive'); 
     } 
 }, false)
 letter_alphabet_j.addEventListener("click", function() {
@@ -161,10 +161,10 @@ letter_alphabet_j.addEventListener("click", function() {
     let src = img_letter_j.getAttribute("src");
     if (src == '/src/img/alphabet/j_uppercase_512px.png') {
         img_letter_j.setAttribute('src', '/src/img/alphabet/j_lowercase_512px.png');
-        letter_alphabet_j.style.backgroundColor = 'var(--main-color-black)';
+        letter_alphabet_j.classList.toggle('backgroundActive'); 
     } else {
         img_letter_j.setAttribute('src', '/src/img/alphabet/j_uppercase_512px.png');
-        letter_alphabet_j.style.backgroundColor = 'var(--main-color-blue)';
+        letter_alphabet_j.classList.toggle('backgroundActive'); 
     } 
 }, false);
 letter_alphabet_k.addEventListener("click", function() {
@@ -173,10 +173,10 @@ letter_alphabet_k.addEventListener("click", function() {
     let src = img_letter_k.getAttribute("src");
     if (src == '/src/img/alphabet/k_uppercase_512px.png') {
         img_letter_k.setAttribute('src', '/src/img/alphabet/k_lowercase_512px.png');
-        letter_alphabet_k.style.backgroundColor = 'var(--main-color-black)';
+        letter_alphabet_k.classList.toggle('backgroundActive'); 
     } else {
         img_letter_k.setAttribute('src', '/src/img/alphabet/k_uppercase_512px.png');
-        letter_alphabet_k.style.backgroundColor = 'var(--main-color-blue)';
+        letter_alphabet_k.classList.toggle('backgroundActive'); 
     } 
 }, false);
 letter_alphabet_l.addEventListener("click", function() {
@@ -185,10 +185,10 @@ letter_alphabet_l.addEventListener("click", function() {
     let src = img_letter_l.getAttribute("src");
     if (src == '/src/img/alphabet/l_uppercase_512px.png') {
         img_letter_l.setAttribute('src', '/src/img/alphabet/l_lowercase_512px.png');
-        letter_alphabet_l.style.backgroundColor = 'var(--main-color-black)';
+        letter_alphabet_l.classList.toggle('backgroundActive'); 
     } else {
         img_letter_l.setAttribute('src', '/src/img/alphabet/l_uppercase_512px.png');
-        letter_alphabet_l.style.backgroundColor = 'var(--main-color-blue)';
+        letter_alphabet_l.classList.toggle('backgroundActive'); 
     } 
 }, false)
 letter_alphabet_m.addEventListener("click", function() {
@@ -197,10 +197,10 @@ letter_alphabet_m.addEventListener("click", function() {
     let src = img_letter_m.getAttribute("src");
     if (src == '/src/img/alphabet/m_uppercase_512px.png') {
         img_letter_m.setAttribute('src', '/src/img/alphabet/m_lowercase_512px.png');
-        letter_alphabet_m.style.backgroundColor = 'var(--main-color-black)';
+        letter_alphabet_m.classList.toggle('backgroundActive'); 
     } else {
         img_letter_m.setAttribute('src', '/src/img/alphabet/m_uppercase_512px.png');
-        letter_alphabet_m.style.backgroundColor = 'var(--main-color-blue)';
+        letter_alphabet_m.classList.toggle('backgroundActive'); 
     } 
 }, false);
 letter_alphabet_n.addEventListener("click", function() {
@@ -209,10 +209,10 @@ letter_alphabet_n.addEventListener("click", function() {
     let src = img_letter_n.getAttribute("src");
     if (src == '/src/img/alphabet/n_uppercase_512px.png') {
         img_letter_n.setAttribute('src', '/src/img/alphabet/n_lowercase_512px.png');
-        letter_alphabet_n.style.backgroundColor = 'var(--main-color-black)';
+        letter_alphabet_n.classList.toggle('backgroundActive'); 
     } else {
         img_letter_n.setAttribute('src', '/src/img/alphabet/n_uppercase_512px.png');
-        letter_alphabet_n.style.backgroundColor = 'var(--main-color-blue)';
+        letter_alphabet_n.classList.toggle('backgroundActive'); 
     } 
 }, false)
 letter_alphabet_o.addEventListener("click", function() {
@@ -221,10 +221,10 @@ letter_alphabet_o.addEventListener("click", function() {
     let src = img_letter_o.getAttribute("src");
     if (src == '/src/img/alphabet/o_uppercase_512px.png') {
         img_letter_o.setAttribute('src', '/src/img/alphabet/o_lowercase_512px.png');
-        letter_alphabet_o.style.backgroundColor = 'var(--main-color-black)';
+        letter_alphabet_o.classList.toggle('backgroundActive'); 
     } else {
         img_letter_o.setAttribute('src', '/src/img/alphabet/o_uppercase_512px.png');
-        letter_alphabet_o.style.backgroundColor = 'var(--main-color-blue)';
+        letter_alphabet_o.classList.toggle('backgroundActive'); 
     } 
 }, false);
 letter_alphabet_p.addEventListener("click", function() {
@@ -233,10 +233,10 @@ letter_alphabet_p.addEventListener("click", function() {
     let src = img_letter_p.getAttribute("src");
     if (src == '/src/img/alphabet/p_uppercase_512px.png') {
         img_letter_p.setAttribute('src', '/src/img/alphabet/p_lowercase_512px.png');
-        letter_alphabet_p.style.backgroundColor = 'var(--main-color-black)';
+        letter_alphabet_p.classList.toggle('backgroundActive'); 
     } else {
         img_letter_p.setAttribute('src', '/src/img/alphabet/p_uppercase_512px.png');
-        letter_alphabet_p.style.backgroundColor = 'var(--main-color-blue)';
+        letter_alphabet_p.classList.toggle('backgroundActive'); 
     } 
 }, false);
 letter_alphabet_q.addEventListener("click", function() {
@@ -245,10 +245,10 @@ letter_alphabet_q.addEventListener("click", function() {
     let src = img_letter_q.getAttribute("src");
     if (src == '/src/img/alphabet/q_uppercase_512px.png') {
         img_letter_q.setAttribute('src', '/src/img/alphabet/q_lowercase_512px.png');
-        letter_alphabet_q.style.backgroundColor = 'var(--main-color-black)';
+        letter_alphabet_q.classList.toggle('backgroundActive'); 
     } else {
         img_letter_q.setAttribute('src', '/src/img/alphabet/q_uppercase_512px.png');
-        letter_alphabet_q.style.backgroundColor = 'var(--main-color-blue)';
+        letter_alphabet_q.classList.toggle('backgroundActive'); 
     } 
 }, false)
 letter_alphabet_r.addEventListener("click", function() {
@@ -257,10 +257,10 @@ letter_alphabet_r.addEventListener("click", function() {
     let src = img_letter_r.getAttribute("src");
     if (src == '/src/img/alphabet/r_uppercase_512px.png') {
         img_letter_r.setAttribute('src', '/src/img/alphabet/r_lowercase_512px.png');
-        letter_alphabet_r.style.backgroundColor = 'var(--main-color-black)';
+        letter_alphabet_r.classList.toggle('backgroundActive'); 
     } else {
         img_letter_r.setAttribute('src', '/src/img/alphabet/r_uppercase_512px.png');
-        letter_alphabet_r.style.backgroundColor = 'var(--main-color-blue)';
+        letter_alphabet_r.classList.toggle('backgroundActive'); 
     } 
 }, false);
 letter_alphabet_s.addEventListener("click", function() {
@@ -269,10 +269,10 @@ letter_alphabet_s.addEventListener("click", function() {
     let src = img_letter_s.getAttribute("src");
     if (src == '/src/img/alphabet/s_uppercase_512px.png') {
         img_letter_s.setAttribute('src', '/src/img/alphabet/s_lowercase_512px.png');
-        letter_alphabet_s.style.backgroundColor = 'var(--main-color-black)';
+        letter_alphabet_s.classList.toggle('backgroundActive'); 
     } else {
         img_letter_s.setAttribute('src', '/src/img/alphabet/s_uppercase_512px.png');
-        letter_alphabet_s.style.backgroundColor = 'var(--main-color-blue)';
+        letter_alphabet_s.classList.toggle('backgroundActive'); 
     } 
 }, false)
 letter_alphabet_t.addEventListener("click", function() {
@@ -281,10 +281,10 @@ letter_alphabet_t.addEventListener("click", function() {
     let src = img_letter_t.getAttribute("src");
     if (src == '/src/img/alphabet/t_uppercase_512px.png') {
         img_letter_t.setAttribute('src', '/src/img/alphabet/t_lowercase_512px.png');
-        letter_alphabet_t.style.backgroundColor = 'var(--main-color-black)';
+        letter_alphabet_t.classList.toggle('backgroundActive'); 
     } else {
         img_letter_t.setAttribute('src', '/src/img/alphabet/t_uppercase_512px.png');
-        letter_alphabet_t.style.backgroundColor = 'var(--main-color-blue)';
+        letter_alphabet_t.classList.toggle('backgroundActive'); 
     } 
 }, false);
 letter_alphabet_u.addEventListener("click", function() {
@@ -293,10 +293,10 @@ letter_alphabet_u.addEventListener("click", function() {
     let src = img_letter_u.getAttribute("src");
     if (src == '/src/img/alphabet/u_uppercase_512px.png') {
         img_letter_u.setAttribute('src', '/src/img/alphabet/u_lowercase_512px.png');
-        letter_alphabet_u.style.backgroundColor = 'var(--main-color-black)';
+        letter_alphabet_u.classList.toggle('backgroundActive'); 
     } else {
         img_letter_u.setAttribute('src', '/src/img/alphabet/u_uppercase_512px.png');
-        letter_alphabet_u.style.backgroundColor = 'var(--main-color-blue)';
+        letter_alphabet_u.classList.toggle('backgroundActive'); 
     } 
 }, false);
 letter_alphabet_v.addEventListener("click", function() {
@@ -305,10 +305,10 @@ letter_alphabet_v.addEventListener("click", function() {
     let src = img_letter_v.getAttribute("src");
     if (src == '/src/img/alphabet/v_uppercase_512px.png') {
         img_letter_v.setAttribute('src', '/src/img/alphabet/v_lowercase_512px.png');
-        letter_alphabet_v.style.backgroundColor = 'var(--main-color-black)';
+        letter_alphabet_v.classList.toggle('backgroundActive'); 
     } else {
         img_letter_v.setAttribute('src', '/src/img/alphabet/v_uppercase_512px.png');
-        letter_alphabet_v.style.backgroundColor = 'var(--main-color-blue)';
+        letter_alphabet_v.classList.toggle('backgroundActive'); 
     } 
 }, false)
 letter_alphabet_w.addEventListener("click", function() {
@@ -317,10 +317,10 @@ letter_alphabet_w.addEventListener("click", function() {
     let src = img_letter_w.getAttribute("src");
     if (src == '/src/img/alphabet/w_uppercase_512px.png') {
         img_letter_w.setAttribute('src', '/src/img/alphabet/w_lowercase_512px.png');
-        letter_alphabet_w.style.backgroundColor = 'var(--main-color-black)';
+        letter_alphabet_w.classList.toggle('backgroundActive'); 
     } else {
         img_letter_w.setAttribute('src', '/src/img/alphabet/w_uppercase_512px.png');
-        letter_alphabet_w.style.backgroundColor = 'var(--main-color-blue)';
+        letter_alphabet_w.classList.toggle('backgroundActive'); 
     } 
 }, false);
 letter_alphabet_x.addEventListener("click", function() {
@@ -329,10 +329,10 @@ letter_alphabet_x.addEventListener("click", function() {
     let src = img_letter_x.getAttribute("src");
     if (src == '/src/img/alphabet/x_uppercase_512px.png') {
         img_letter_x.setAttribute('src', '/src/img/alphabet/x_lowercase_512px.png');
-        letter_alphabet_x.style.backgroundColor = 'var(--main-color-black)';
+        letter_alphabet_x.classList.toggle('backgroundActive'); 
     } else {
         img_letter_x.setAttribute('src', '/src/img/alphabet/x_uppercase_512px.png');
-        letter_alphabet_x.style.backgroundColor = 'var(--main-color-blue)';
+        letter_alphabet_x.classList.toggle('backgroundActive'); 
     } 
 }, false)
 letter_alphabet_y.addEventListener("click", function() {
@@ -341,10 +341,10 @@ letter_alphabet_y.addEventListener("click", function() {
     let src = img_letter_y.getAttribute("src");
     if (src == '/src/img/alphabet/y_uppercase_512px.png') {
         img_letter_y.setAttribute('src', '/src/img/alphabet/y_lowercase_512px.png');
-        letter_alphabet_y.style.backgroundColor = 'var(--main-color-black)';
+        letter_alphabet_y.classList.toggle('backgroundActive'); 
     } else {
         img_letter_y.setAttribute('src', '/src/img/alphabet/y_uppercase_512px.png');
-        letter_alphabet_y.style.backgroundColor = 'var(--main-color-blue)';
+        letter_alphabet_y.classList.toggle('backgroundActive'); 
     } 
 }, false);
 letter_alphabet_z.addEventListener("click", function() {
@@ -353,9 +353,9 @@ letter_alphabet_z.addEventListener("click", function() {
     let src = img_letter_z.getAttribute("src");
     if (src == '/src/img/alphabet/z_uppercase_512px.png') {
         img_letter_z.setAttribute('src', '/src/img/alphabet/z_lowercase_512px.png');
-        letter_alphabet_z.style.backgroundColor = 'var(--main-color-black)';
+        letter_alphabet_z.classList.toggle('backgroundActive'); 
     } else {
         img_letter_z.setAttribute('src', '/src/img/alphabet/z_uppercase_512px.png');
-        letter_alphabet_z.style.backgroundColor = 'var(--main-color-blue)';
+        letter_alphabet_z.classList.toggle('backgroundActive'); 
     } 
 }, false);
