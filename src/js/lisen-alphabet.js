@@ -1,24 +1,3 @@
-let artyom = new Artyom();
-
-// Start the commands !
-artyom.initialize({
-    lang: "es-ES", // GreatBritain english
-    continuous: true, // Listen forever
-    soundex: true, // Use the soundex algorithm to increase accuracy
-    debug: true, // Show messages in the console
-    executionKeyword: "and do it now",
-    listen: true, // Start to listen commands !
-
-    // If providen, you can only trigger a command if you say its name
-    // e.g to trigger Good Morning, you need to say "Jarvis Good Morning"
-    //name: "Jarvis"
-}).then(() => {
-    console.log("Artyom has been succesfully initialized");
-}).catch((err) => {
-    console.error("Artyom couldn't be initialized: ", err);
-});
-
-
 // Alphabet listen
 let letter_alphabet_a = document.getElementById("btn-lisen-alphabet-a");
 let letter_alphabet_b = document.getElementById("btn-lisen-alphabet-b");
@@ -48,6 +27,13 @@ let letter_alphabet_y = document.getElementById("btn-lisen-alphabet-y");
 let letter_alphabet_z = document.getElementById("btn-lisen-alphabet-z");
 
 letter_alphabet_a.addEventListener("click", function() {
+    let artyom = new Artyom();
+    artyom.initialize({
+        lang:"es-ES",
+        continuous:false,
+        debug:true,
+        listen:true
+    });
     artyom.say("a");
     let img_letter_a = document.querySelector("#btn-lisen-alphabet-a img");
     let src = img_letter_a.getAttribute("src");
@@ -60,6 +46,13 @@ letter_alphabet_a.addEventListener("click", function() {
     } 
 }, false);
 letter_alphabet_b.addEventListener("click", function() {
+    let artyom = new Artyom();
+    artyom.initialize({
+        lang:"es-ES",
+        continuous:false,
+        debug:true,
+        listen:true
+    });
     artyom.say("b");
     let img_letter_b = document.querySelector("#btn-lisen-alphabet-b img");
     let src = img_letter_b.getAttribute("src");
@@ -72,6 +65,13 @@ letter_alphabet_b.addEventListener("click", function() {
     } 
 }, false)
 letter_alphabet_c.addEventListener("click", function() {
+    let artyom = new Artyom();
+    artyom.initialize({
+        lang:"es-ES",
+        continuous:false,
+        debug:true,
+        listen:true
+    });
     artyom.say("c");
     let img_letter_c = document.querySelector("#btn-lisen-alphabet-c img");
     let src = img_letter_c.getAttribute("src");
@@ -84,6 +84,13 @@ letter_alphabet_c.addEventListener("click", function() {
     } 
 }, false);
 letter_alphabet_d.addEventListener("click", function() {
+    let artyom = new Artyom();
+    artyom.initialize({
+        lang:"es-ES",
+        continuous:false,
+        debug:true,
+        listen:true
+    });
     artyom.say("d");
     let img_letter_d = document.querySelector("#btn-lisen-alphabet-d img");
     let src = img_letter_d.getAttribute("src");
@@ -96,6 +103,13 @@ letter_alphabet_d.addEventListener("click", function() {
     } 
 }, false)
 letter_alphabet_e.addEventListener("click", function() {
+    let artyom = new Artyom();
+    artyom.initialize({
+        lang:"es-ES",
+        continuous:false,
+        debug:true,
+        listen:true
+    });
     artyom.say("e");
     let img_letter_e = document.querySelector("#btn-lisen-alphabet-e img");
     let src = img_letter_e.getAttribute("src");
@@ -108,6 +122,13 @@ letter_alphabet_e.addEventListener("click", function() {
     } 
 }, false);
 letter_alphabet_f.addEventListener("click", function() {
+    let artyom = new Artyom();
+    artyom.initialize({
+        lang:"es-ES",
+        continuous:false,
+        debug:true,
+        listen:true
+    });
     artyom.say("f");
     let img_letter_f = document.querySelector("#btn-lisen-alphabet-f img");
     let src = img_letter_f.getAttribute("src");
@@ -120,6 +141,13 @@ letter_alphabet_f.addEventListener("click", function() {
     } 
 }, false);
 letter_alphabet_g.addEventListener("click", function() {
+    let artyom = new Artyom();
+    artyom.initialize({
+        lang:"es-ES",
+        continuous:false,
+        debug:true,
+        listen:true
+    });
     artyom.say("g");
     let img_letter_g = document.querySelector("#btn-lisen-alphabet-g img");
     let src = img_letter_g.getAttribute("src");
@@ -132,6 +160,13 @@ letter_alphabet_g.addEventListener("click", function() {
     } 
 }, false)
 letter_alphabet_h.addEventListener("click", function() {
+    let artyom = new Artyom();
+    artyom.initialize({
+        lang:"es-ES",
+        continuous:false,
+        debug:true,
+        listen:true
+    });
     artyom.say("h");
     let img_letter_h = document.querySelector("#btn-lisen-alphabet-h img");
     let src = img_letter_h.getAttribute("src");
@@ -144,6 +179,13 @@ letter_alphabet_h.addEventListener("click", function() {
     } 
 }, false);
 letter_alphabet_i.addEventListener("click", function() {
+    let artyom = new Artyom();
+    artyom.initialize({
+        lang:"es-ES",
+        continuous:false,
+        debug:true,
+        listen:true
+    });
     artyom.say("i");
     let img_letter_i = document.querySelector("#btn-lisen-alphabet-i img");
     let src = img_letter_i.getAttribute("src");
@@ -156,6 +198,13 @@ letter_alphabet_i.addEventListener("click", function() {
     } 
 }, false)
 letter_alphabet_j.addEventListener("click", function() {
+    let artyom = new Artyom();
+    artyom.initialize({
+        lang:"es-ES",
+        continuous:false,
+        debug:true,
+        listen:true
+    });
     artyom.say("j");
     let img_letter_j = document.querySelector("#btn-lisen-alphabet-j img");
     let src = img_letter_j.getAttribute("src");
@@ -168,6 +217,13 @@ letter_alphabet_j.addEventListener("click", function() {
     } 
 }, false);
 letter_alphabet_k.addEventListener("click", function() {
+    let artyom = new Artyom();
+    artyom.initialize({
+        lang:"es-ES",
+        continuous:false,
+        debug:true,
+        listen:true
+    });
     artyom.say("k");
     let img_letter_k = document.querySelector("#btn-lisen-alphabet-k img");
     let src = img_letter_k.getAttribute("src");
@@ -180,6 +236,13 @@ letter_alphabet_k.addEventListener("click", function() {
     } 
 }, false);
 letter_alphabet_l.addEventListener("click", function() {
+    let artyom = new Artyom();
+    artyom.initialize({
+        lang:"es-ES",
+        continuous:false,
+        debug:true,
+        listen:true
+    });
     artyom.say("l");
     let img_letter_l = document.querySelector("#btn-lisen-alphabet-l img");
     let src = img_letter_l.getAttribute("src");
@@ -192,6 +255,13 @@ letter_alphabet_l.addEventListener("click", function() {
     } 
 }, false)
 letter_alphabet_m.addEventListener("click", function() {
+    let artyom = new Artyom();
+    artyom.initialize({
+        lang:"es-ES",
+        continuous:false,
+        debug:true,
+        listen:true
+    });
     artyom.say("m");
     let img_letter_m = document.querySelector("#btn-lisen-alphabet-m img");
     let src = img_letter_m.getAttribute("src");
@@ -204,6 +274,13 @@ letter_alphabet_m.addEventListener("click", function() {
     } 
 }, false);
 letter_alphabet_n.addEventListener("click", function() {
+    let artyom = new Artyom();
+    artyom.initialize({
+        lang:"es-ES",
+        continuous:false,
+        debug:true,
+        listen:true
+    });
     artyom.say("n");
     let img_letter_n = document.querySelector("#btn-lisen-alphabet-n img");
     let src = img_letter_n.getAttribute("src");
@@ -216,6 +293,13 @@ letter_alphabet_n.addEventListener("click", function() {
     } 
 }, false)
 letter_alphabet_o.addEventListener("click", function() {
+    let artyom = new Artyom();
+    artyom.initialize({
+        lang:"es-ES",
+        continuous:false,
+        debug:true,
+        listen:true
+    });
     artyom.say("o");
     let img_letter_o = document.querySelector("#btn-lisen-alphabet-o img");
     let src = img_letter_o.getAttribute("src");
@@ -228,6 +312,13 @@ letter_alphabet_o.addEventListener("click", function() {
     } 
 }, false);
 letter_alphabet_p.addEventListener("click", function() {
+    let artyom = new Artyom();
+    artyom.initialize({
+        lang:"es-ES",
+        continuous:false,
+        debug:true,
+        listen:true
+    });
     artyom.say("p");
     let img_letter_p = document.querySelector("#btn-lisen-alphabet-p img");
     let src = img_letter_p.getAttribute("src");
@@ -240,6 +331,13 @@ letter_alphabet_p.addEventListener("click", function() {
     } 
 }, false);
 letter_alphabet_q.addEventListener("click", function() {
+    let artyom = new Artyom();
+    artyom.initialize({
+        lang:"es-ES",
+        continuous:false,
+        debug:true,
+        listen:true
+    });
     artyom.say("q");
     let img_letter_q = document.querySelector("#btn-lisen-alphabet-q img");
     let src = img_letter_q.getAttribute("src");
@@ -252,6 +350,13 @@ letter_alphabet_q.addEventListener("click", function() {
     } 
 }, false)
 letter_alphabet_r.addEventListener("click", function() {
+    let artyom = new Artyom();
+    artyom.initialize({
+        lang:"es-ES",
+        continuous:false,
+        debug:true,
+        listen:true
+    });
     artyom.say("r");
     let img_letter_r = document.querySelector("#btn-lisen-alphabet-r img");
     let src = img_letter_r.getAttribute("src");
@@ -264,6 +369,13 @@ letter_alphabet_r.addEventListener("click", function() {
     } 
 }, false);
 letter_alphabet_s.addEventListener("click", function() {
+    let artyom = new Artyom();
+    artyom.initialize({
+        lang:"es-ES",
+        continuous:false,
+        debug:true,
+        listen:true
+    });
     artyom.say("s");
     let img_letter_s = document.querySelector("#btn-lisen-alphabet-s img");
     let src = img_letter_s.getAttribute("src");
@@ -276,6 +388,13 @@ letter_alphabet_s.addEventListener("click", function() {
     } 
 }, false)
 letter_alphabet_t.addEventListener("click", function() {
+    let artyom = new Artyom();
+    artyom.initialize({
+        lang:"es-ES",
+        continuous:false,
+        debug:true,
+        listen:true
+    });
     artyom.say("t");
     let img_letter_t = document.querySelector("#btn-lisen-alphabet-t img");
     let src = img_letter_t.getAttribute("src");
@@ -288,6 +407,13 @@ letter_alphabet_t.addEventListener("click", function() {
     } 
 }, false);
 letter_alphabet_u.addEventListener("click", function() {
+    let artyom = new Artyom();
+    artyom.initialize({
+        lang:"es-ES",
+        continuous:false,
+        debug:true,
+        listen:true
+    });
     artyom.say("u");
     let img_letter_u = document.querySelector("#btn-lisen-alphabet-u img");
     let src = img_letter_u.getAttribute("src");
@@ -300,6 +426,13 @@ letter_alphabet_u.addEventListener("click", function() {
     } 
 }, false);
 letter_alphabet_v.addEventListener("click", function() {
+    let artyom = new Artyom();
+    artyom.initialize({
+        lang:"es-ES",
+        continuous:false,
+        debug:true,
+        listen:true
+    });
     artyom.say("v");
     let img_letter_v = document.querySelector("#btn-lisen-alphabet-v img");
     let src = img_letter_v.getAttribute("src");
@@ -312,6 +445,13 @@ letter_alphabet_v.addEventListener("click", function() {
     } 
 }, false)
 letter_alphabet_w.addEventListener("click", function() {
+    let artyom = new Artyom();
+    artyom.initialize({
+        lang:"es-ES",
+        continuous:false,
+        debug:true,
+        listen:true
+    });
     artyom.say("w");
     let img_letter_w = document.querySelector("#btn-lisen-alphabet-w img");
     let src = img_letter_w.getAttribute("src");
@@ -324,6 +464,13 @@ letter_alphabet_w.addEventListener("click", function() {
     } 
 }, false);
 letter_alphabet_x.addEventListener("click", function() {
+    let artyom = new Artyom();
+    artyom.initialize({
+        lang:"es-ES",
+        continuous:false,
+        debug:true,
+        listen:true
+    });
     artyom.say("x");
     let img_letter_x = document.querySelector("#btn-lisen-alphabet-x img");
     let src = img_letter_x.getAttribute("src");
@@ -336,6 +483,13 @@ letter_alphabet_x.addEventListener("click", function() {
     } 
 }, false)
 letter_alphabet_y.addEventListener("click", function() {
+    let artyom = new Artyom();
+    artyom.initialize({
+        lang:"es-ES",
+        continuous:false,
+        debug:true,
+        listen:true
+    });
     artyom.say("y griega");
     let img_letter_y = document.querySelector("#btn-lisen-alphabet-y img");
     let src = img_letter_y.getAttribute("src");
@@ -348,6 +502,13 @@ letter_alphabet_y.addEventListener("click", function() {
     } 
 }, false);
 letter_alphabet_z.addEventListener("click", function() {
+    let artyom = new Artyom();
+    artyom.initialize({
+        lang:"es-ES",
+        continuous:false,
+        debug:true,
+        listen:true
+    });
     artyom.say("z");
     let img_letter_z = document.querySelector("#btn-lisen-alphabet-z img");
     let src = img_letter_z.getAttribute("src");

@@ -1,4 +1,4 @@
-let artyom = new Artyom();
+/*let artyom = new Artyom();
 
 // Start the commands !
 artyom.initialize({
@@ -16,27 +16,77 @@ artyom.initialize({
     console.log("Artyom has been succesfully initialized");
 }).catch((err) => {
     console.error("Artyom couldn't be initialized: ", err);
-});
+});*/
 
 
 // Menu listen
 document.getElementById("btn-lisen-vowel").addEventListener("click", function() {
+    let artyom = new Artyom();
+    artyom.initialize({
+        lang:"es-ES",
+        // Process 1 command, if nothing recognized then it will stop
+        continuous:false,
+        // Log everything in the console
+        debug:true,
+        // Initialize artyom !
+        listen:true
+    });
     artyom.say("Las vocales");
 }, false);
 
 document.getElementById("btn-lisen-numbers").addEventListener("click", function() {
+    let artyom = new Artyom();
+    artyom.initialize({
+        lang:"es-ES",
+        // Process 1 command, if nothing recognized then it will stop
+        continuous:false,
+        // Log everything in the console
+        debug:true,
+        // Initialize artyom !
+        listen:true
+    });
     artyom.say("Los números");
 }, false);
 
 document.getElementById("btn-lisen-colors").addEventListener("click", function() {
+    let artyom = new Artyom();
+    artyom.initialize({
+        lang:"es-ES",
+        // Process 1 command, if nothing recognized then it will stop
+        continuous:false,
+        // Log everything in the console
+        debug:true,
+        // Initialize artyom !
+        listen:true
+    });
     artyom.say("Los colores");
 }, false)
 
 document.getElementById("btn-lisen-figures").addEventListener("click", function() {
+    let artyom = new Artyom();
+    artyom.initialize({
+        lang:"es-ES",
+        // Process 1 command, if nothing recognized then it will stop
+        continuous:false,
+        // Log everything in the console
+        debug:true,
+        // Initialize artyom !
+        listen:true
+    });
     artyom.say("Las formas");
 }, false)
 
 document.getElementById("btn-lisen-alphabet").addEventListener("click", function() {
+    let artyom = new Artyom();
+    artyom.initialize({
+        lang:"es-ES",
+        // Process 1 command, if nothing recognized then it will stop
+        continuous:false,
+        // Log everything in the console
+        debug:true,
+        // Initialize artyom !
+        listen:true
+    });
     artyom.say("El abcdario");
 }, false)
 
